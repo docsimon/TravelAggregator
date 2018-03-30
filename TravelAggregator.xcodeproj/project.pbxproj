@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CA204A87206EE32A00648A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204A86206EE32A00648A33 /* AppDelegate.swift */; };
-		CA204A89206EE32A00648A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204A88206EE32A00648A33 /* ViewController.swift */; };
+		CA204A89206EE32A00648A33 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204A88206EE32A00648A33 /* MainViewController.swift */; };
 		CA204A8C206EE32A00648A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA204A8A206EE32A00648A33 /* Main.storyboard */; };
 		CA204A8E206EE32A00648A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA204A8D206EE32A00648A33 /* Assets.xcassets */; };
 		CA204A91206EE32A00648A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA204A8F206EE32A00648A33 /* LaunchScreen.storyboard */; };
 		CA204A9C206EE32A00648A33 /* TravelAggregatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204A9B206EE32A00648A33 /* TravelAggregatorTests.swift */; };
+		CA204AAB206EE40B00648A33 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AAA206EE40B00648A33 /* MainViewModel.swift */; };
+		CA204AAD206EE51100648A33 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AAC206EE51100648A33 /* ErrorManager.swift */; };
+		CA204AAF206EE55000648A33 /* FlightCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AAE206EE55000648A33 /* FlightCardCollectionViewCell.swift */; };
+		CA204AB3206EE5BA00648A33 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AB2206EE5BA00648A33 /* Client.swift */; };
+		CA204AB5206EE5DB00648A33 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AB4206EE5DB00648A33 /* DataModel.swift */; };
+		CA204AB7206EE61E00648A33 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AB6206EE61E00648A33 /* DataParser.swift */; };
+		CA204AB9206EE64800648A33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204AB8206EE64800648A33 /* Constants.swift */; };
+		CA204ABB206EE6B400648A33 /* DataCardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204ABA206EE6B400648A33 /* DataCardBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CA204A83206EE32900648A33 /* TravelAggregator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAggregator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA204A86206EE32A00648A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA204A88206EE32A00648A33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA204A88206EE32A00648A33 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CA204A8B206EE32A00648A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA204A8D206EE32A00648A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA204A90206EE32A00648A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,14 @@
 		CA204A97206EE32A00648A33 /* TravelAggregatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAggregatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA204A9B206EE32A00648A33 /* TravelAggregatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAggregatorTests.swift; sourceTree = "<group>"; };
 		CA204A9D206EE32A00648A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA204AAA206EE40B00648A33 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CA204AAC206EE51100648A33 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		CA204AAE206EE55000648A33 /* FlightCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA204AB2206EE5BA00648A33 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CA204AB4206EE5DB00648A33 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CA204AB6206EE61E00648A33 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		CA204AB8206EE64800648A33 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA204ABA206EE6B400648A33 /* DataCardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCardBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +93,10 @@
 		CA204A85206EE32900648A33 /* TravelAggregator */ = {
 			isa = PBXGroup;
 			children = (
-				CA204A86206EE32A00648A33 /* AppDelegate.swift */,
-				CA204A88206EE32A00648A33 /* ViewController.swift */,
-				CA204A8A206EE32A00648A33 /* Main.storyboard */,
-				CA204A8D206EE32A00648A33 /* Assets.xcassets */,
-				CA204A8F206EE32A00648A33 /* LaunchScreen.storyboard */,
+				CA204AA9206EE39400648A33 /* Support */,
+				CA204AA8206EE38A00648A33 /* Model */,
+				CA204AA7206EE37F00648A33 /* View */,
+				CA204AA6206EE37300648A33 /* ViewModel */,
 				CA204A92206EE32A00648A33 /* Info.plist */,
 			);
 			path = TravelAggregator;
@@ -94,6 +109,47 @@
 				CA204A9D206EE32A00648A33 /* Info.plist */,
 			);
 			path = TravelAggregatorTests;
+			sourceTree = "<group>";
+		};
+		CA204AA6206EE37300648A33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA204AAA206EE40B00648A33 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA204AA7206EE37F00648A33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA204A88206EE32A00648A33 /* MainViewController.swift */,
+				CA204AAC206EE51100648A33 /* ErrorManager.swift */,
+				CA204AAE206EE55000648A33 /* FlightCardCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA204AA8206EE38A00648A33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA204AB2206EE5BA00648A33 /* Client.swift */,
+				CA204AB4206EE5DB00648A33 /* DataModel.swift */,
+				CA204AB6206EE61E00648A33 /* DataParser.swift */,
+				CA204AB8206EE64800648A33 /* Constants.swift */,
+				CA204ABA206EE6B400648A33 /* DataCardBuilder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA204AA9206EE39400648A33 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CA204A86206EE32A00648A33 /* AppDelegate.swift */,
+				CA204A8A206EE32A00648A33 /* Main.storyboard */,
+				CA204A8D206EE32A00648A33 /* Assets.xcassets */,
+				CA204A8F206EE32A00648A33 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA204A89206EE32A00648A33 /* ViewController.swift in Sources */,
+				CA204AB5206EE5DB00648A33 /* DataModel.swift in Sources */,
+				CA204A89206EE32A00648A33 /* MainViewController.swift in Sources */,
+				CA204AB7206EE61E00648A33 /* DataParser.swift in Sources */,
+				CA204ABB206EE6B400648A33 /* DataCardBuilder.swift in Sources */,
+				CA204AAF206EE55000648A33 /* FlightCardCollectionViewCell.swift in Sources */,
+				CA204AB3206EE5BA00648A33 /* Client.swift in Sources */,
 				CA204A87206EE32A00648A33 /* AppDelegate.swift in Sources */,
+				CA204AAD206EE51100648A33 /* ErrorManager.swift in Sources */,
+				CA204AAB206EE40B00648A33 /* MainViewModel.swift in Sources */,
+				CA204AB9206EE64800648A33 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZH5BJLYFE;
 				INFOPLIST_FILE = TravelAggregator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.simone.test.TravelAggregator;
@@ -368,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZH5BJLYFE;
 				INFOPLIST_FILE = TravelAggregator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.simone.test.TravelAggregator;
